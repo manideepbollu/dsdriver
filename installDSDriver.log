@@ -1,0 +1,41 @@
+- 
+- 'installDSDriver' script has started ...
+- 
+- Unzipping and Copying each driver files to install path ...
+-   clpplus/CLPPlus.app files are copied to /Applications/dsdriver/CLPPlus.app
+-   clpplus/bin files are copied to /Applications/dsdriver/bin
+-   clpplus/tools files are copied to /Applications/dsdriver/tools
+-   jdbc_sqlj_driver/macos files are copied to /Applications/dsdriver/java/macos
+-   Performing 'unzip -o -q db2_db2driver_for_jdbc_sqlj.zip' ...
+-   Performing 'gunzip ibm_data_server_driver_for_odbc_cli.tar.gz' ...
+-   odbc_cli_driver/macos/adm files are copied to /Applications/dsdriver/adm
+-   odbc_cli_driver/macos/bin/db2cli files are copied to /Applications/dsdriver/bin/db2cli
+-   odbc_cli_driver/macos/bin/db2diag files are copied to /Applications/dsdriver/bin/db2diag
+-   odbc_cli_driver/macos/bin/db2dsdcfgfill files are copied to /Applications/dsdriver/bin/db2dsdcfgfill
+-   odbc_cli_driver/macos/bin/db2level files are copied to /Applications/dsdriver/bin/db2level
+-   odbc_cli_driver/macos/bin/db2support files are copied to /Applications/dsdriver/bin/db2support
+-   odbc_cli_driver/macos/bnd files are copied to /Applications/dsdriver/bnd
+-   odbc_cli_driver/macos/cfg files are copied to /Applications/dsdriver/cfg
+-   odbc_cli_driver/macos/cfgcache files are copied to /Applications/dsdriver/cfgcache
+-   odbc_cli_driver/macos/conv files are copied to /Applications/dsdriver/conv
+-   odbc_cli_driver/macos/db2dump files are copied to /Applications/dsdriver/db2dump
+-   odbc_cli_driver/macos/include files are copied to /Applications/dsdriver/include
+-   odbc_cli_driver/macos/lib files are copied to /Applications/dsdriver/lib
+-   odbc_cli_driver/macos/license/UNIX files are copied to /Applications/dsdriver/license/UNIX
+-   odbc_cli_driver/macos/license/odbc_REDIST.txt files are copied to /Applications/dsdriver/license/odbc_REDIST.txt
+-   odbc_cli_driver/macos/license/odbc_notices.txt files are copied to /Applications/dsdriver/license/odbc_notices.txt
+-   odbc_cli_driver/macos/msg files are copied to /Applications/dsdriver/msg
+-   --> SUCCESS
+- Generating db2profile & db2cshrc files ...
+-   /Applications/dsdriver/CLPPlus.app copied to /Applications
+-   /Applications/dsdriver/CLPPlus.app moved to /Applications/dsdriver/bin/CLPPlus.app
+-   --> SUCCESS
+- Performing post-installation clean up ...
+-   Removed directory: clpplus
+-   Removed directory: jdbc_sqlj_driver
+-   Removed directory: odbc_cli_driver
+-   --> SUCCESS
+- 
+- 'installDSDriver' completed successfully.
+- Check /Applications/dsdriver/installDSDriver.log file for complete details.
+- 
